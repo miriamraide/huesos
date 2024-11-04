@@ -1,9 +1,8 @@
-import Navbar from "@/components/Navbar";
+import Products from "./Products";
 
-export default function Home() {
-  return (
-    <main>
-      <Navbar />
-    </main>
-  );
-}
+
+const page = () => {
+  return <Products />;
+};
+
+export default page;
