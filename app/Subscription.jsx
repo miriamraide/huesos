@@ -1,13 +1,20 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+
 const Contact = () => {
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push("/Subscription");
+  };
+
   return (
     <>
       <div className="h-[1000px] flex justify-center items-center">
-        <div
-          id="contact"
-          className="lg:bg-banner bg-cover bg-fixed lg:h-[490px] h-[650px] lg:px-16 py-5"
-        >
-          <div className="lg:mx-40 lg:my-40 flex flex-col items-center justify-center bg-white rounded-[50px] py-20">
-            <h2 className="title text-3xl mb-16 text-blue-600">
+        <div id="contact" className="lg:h-[490px] h-[650px] lg:px-16 py-5">
+          <div className="lg:mx-40 lg:my-40 flex flex-col items-center justify-center bg-blue-600 rounded-[50px] py-20">
+            <h2 className="title text-3xl mb-16 text-yellow-400 font-semibold">
               Completa tus datos
             </h2>
             <form
@@ -31,7 +38,10 @@ const Contact = () => {
                 rows="10"
               ></textarea>
               <div className="flex justify-center">
-                <button className="bg-yellow-600 lg:w-1/3 m-0">
+                <button
+                  onClick={handleClick}
+                  className="bg-yellow-500 lg:w-1/3 m-0 rounded-xl p-2 mt-4 text-blue-700 font-bold"
+                >
                   Suscribite
                 </button>
               </div>

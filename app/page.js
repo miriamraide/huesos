@@ -1,8 +1,13 @@
-import Products from "./Products";
+"use client";
 
+import { ContextProvider } from "./CartContext";
+import { CartElements } from "./CartContent/CartElements";
 
-const page = () => {
-  return <Products />;
+const Home = () => {
+  return;
+  <ContextProvider>
+    <CartElements />
+  </ContextProvider>;
 };
 
-export default page;
+export default Home;

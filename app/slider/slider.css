@@ -11,9 +11,10 @@ body {
 
 .container{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top: 56%;
+  left: 55%;
+  right: 10%;
+  transform: translate(-60%,-50%);
   width: 1500px;
   height: 1000px;
   background-color: whitesmoke;
@@ -21,13 +22,14 @@ body {
 }
 
 .container .slide .item{
-  width: 300px;
+  width:800px;
   height: 700px;
   position: absolute;
   top: 50%;
-  transform: translate(0, -50%);
-  border-radius: 20px;
-  box-shadow: 0 30px  50px rgb(151, 138, 125);
+  right: 10%;
+  transform: translateY(-275px);
+  border-radius: 50px;
+  box-shadow: 800px 80px  800px rgb(48, 46, 44);
   background-position: 50% 50%;
   background-size: cover;
   display: inline-block;
@@ -37,7 +39,7 @@ body {
 .slide .item:nth-child(1),
 .slide .item:nth-child(2) {
   top: 0;
-  left: 0;
+  left: 20;
   transform: translate(0, 0);
   border-radius: 0;
   width: 100%;
@@ -99,8 +101,8 @@ animation: animation 1s ease-in-out 0.3s 1 forwards;
 padding: 10px 20px;
 border: none;
 cursor: pointer;
-background: wheat;
-color: rgb(24, 16, 16);
+background: rgb(238, 216, 130);
+color: rgb(12, 24, 198);
 animation: animation 1s ease-in-out 0.3s 1 forwards;
 }
 

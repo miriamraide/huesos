@@ -76,8 +76,7 @@ export const barkDB = [
     description:
       "Realizado completamente con productos reciclados, este estilo de cama/cueva es perfecto para adornar cualquier ambiente.",
 
-    image:
-      "https://i.ibb.co/D8wGf8C/bark-24-catbed3.jpg" /*"bark-24-catbed3.jpg",*/,
+    image: "https://i.ibb.co/D8wGf8C/bark-24-catbed3.jpg",
     price: 28000,
     quantity: 6,
     stock: 10,
@@ -91,8 +90,7 @@ export const barkDB = [
     description:
       "Realizado completamente con productos reciclados, este estilo de cama es perfecto para desacanso gatuno.",
 
-    image:
-      "https://i.ibb.co/xYVXqj8/bark-22-catbed1.jpg" /*"bark-22-catbed1.jpg",*/,
+    image: "https://i.ibb.co/xYVXqj8/bark-22-catbed1.jpg",
     price: 35000,
     quantity: 5,
     stock: 10,
@@ -106,8 +104,7 @@ export const barkDB = [
     description:
       "Realizado completamente con productos reciclados, este estilo de bowls es perfecto para adornar cualquier ambiente.",
 
-    image:
-      "https://i.ibb.co/G7N2q2G/bark-28-cat-bowls.jpg" /*"bark-28-cat-bowls.jpg",*/,
+    image: "https://i.ibb.co/G7N2q2G/bark-28-cat-bowls.jpg",
     price: 28000,
     quantity: 6,
     stock: 10,
